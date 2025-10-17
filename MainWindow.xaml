@@ -7,10 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
-        <Button x:Name="btnSelectFile" Content="Button" HorizontalAlignment="Left" Height="64" Margin="209,104,0,0" VerticalAlignment="Top" Width="171" Click="btnSelectFile_Click"/>
-        <Label x:Name="lblStatus" Content="" HorizontalAlignment="Left" Height="23" Margin="209,194,0,0" VerticalAlignment="Top" Width="171"/>
-        <TextBox x:Name="txtOutput" HorizontalAlignment="Left" Height="143" Margin="209,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171"/>
-        <ComboBox x:Name="cbxLanguage" HorizontalAlignment="Left" Height="36" Margin="209,39,0,0" VerticalAlignment="Top" Width="171"/>
+        <Button x:Name="btnRunOCR" Content="Metni Ayıkla" HorizontalAlignment="Left" Height="30" Margin="599,49,0,0" VerticalAlignment="Top" Width="171" Click="btnRunOCR_Click"/>
+        <Label x:Name="lblStatus" Content="" HorizontalAlignment="Left" Height="25" Margin="599,94,0,0" VerticalAlignment="Top" Width="171"/>
+        <TextBox x:Name="txtOutput" HorizontalAlignment="Left" Height="281" Margin="599,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171"/>
+        <ComboBox x:Name="cbxLanguage" HorizontalAlignment="Left" Height="25" Margin="599,10,0,0" VerticalAlignment="Top" Width="171"/>
+        <Image x:Name="imageBox" Stretch="None" HorizontalAlignment="Left" Height="350" Margin="22,10,0,0" VerticalAlignment="Top" Width="530"/>
+        <Button x:Name="btnPasteClipboard" Content="Clipboarddan Yapıştır" HorizontalAlignment="Left" Height="30" Margin="22,375,0,0" VerticalAlignment="Top" Width="200" RenderTransformOrigin="0.216,0.282"/>
+        <Button x:Name="btnSelectFromFile" Content="Dosyadan Resim Seç" HorizontalAlignment="Left" Height="30" Margin="353,375,0,0" VerticalAlignment="Top" Width="200"/>
 
     </Grid>
 </Window>
