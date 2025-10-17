@@ -71,3 +71,40 @@ Uygulama, kullanıcıdan alınan ekran görüntülerini veya dosyadan seçilen g
   -Metin Ayıkla butonuna tıkla.
   
   -Çıkarılan metin txtOutput kutusunda görüntülenecektir.
+                  Using page = engine.Process(img)
+                    sb.AppendLine(page.GetText())
+                End Using
+            End Using
+        End Using
+    Finally
+        If File.Exists(tempFile) Then File.Delete(tempFile)
+    End Try
+
+    Return sb.ToString()
+End Function
+🗂️ Proje Yapısı
+Kodu kopyala
+📁 WpfOcrApp
+ ┣ 📁 tessdata
+ ┃ ┣ eng.traineddata
+ ┃ ┗ tur.traineddata
+ ┣ 📄 MainWindow.xaml
+ ┣ 📄 MainWindow.xaml.vb
+ ┣ 📄 App.xaml
+ ┣ 📄 App.xaml.vb
+ ┗ 📄 README.md
+⚖️ Lisans
+Bu proje MIT lisansı ile sunulmuştur.
+Detaylar için LICENSE dosyasına bakabilirsin.
+
+💬 Katkıda Bulunma
+Pull request’ler memnuniyetle karşılanır 🎉
+Yeni özellik eklemek, hata düzeltmek veya belge geliştirmek istersen fork’la ve PR gönder.
+
+👤 Geliştirici
+Ali İhsan AKKOÇ
+📧 E-posta ile iletişim: aliihsanakkoc.tekstil@gmail.com
+🌐 GitHub Profilim: https://github.com/aliihsanakkoc
+
+🧾 Not: Uygulama sadece yerel sistemde çalışır, herhangi bir dış API çağrısı yapmaz.
+OCR işlemleri tamamen cihaz üzerinde gerçekleştirilir.
