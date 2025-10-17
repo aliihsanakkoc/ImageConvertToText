@@ -71,18 +71,6 @@ Uygulama, kullanıcıdan alınan ekran görüntülerini veya dosyadan seçilen g
   -Metin Ayıkla butonuna tıkla.
   
   -Çıkarılan metin txtOutput kutusunda görüntülenecektir.
-
-  🗂️ Proje Yapısı
-  Kodu kopyala
-  📁 WpfOcrApp
-   ┣ 📁 tessdata
-   ┃ ┣ eng.traineddata
-   ┃ ┗ tur.traineddata
-   ┣ 📄 MainWindow.xaml
-   ┣ 📄 MainWindow.xaml.vb
-   ┣ 📄 App.xaml
-   ┣ 📄 App.xaml.vb
-   ┗ 📄 README.md
    
   ⚖️ Lisans
   Bu proje MIT lisansı ile sunulmuştur.
