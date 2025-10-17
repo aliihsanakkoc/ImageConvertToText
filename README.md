@@ -23,14 +23,6 @@ Uygulama, kullanıcıdan alınan ekran görüntülerini veya dosyadan seçilen g
 
 ---
 
-## 🖼️ Ekran Görüntüsü
-
-> 📸 Uygulama arayüzü örneği:
-
-![Uygulama Arayüzü](docs/screenshot.png)
-
----
-
 ## 🧩 Gereksinimler
 
 | Bileşen | Açıklama |
