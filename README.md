@@ -60,8 +60,11 @@ Uygulama, kullanıcıdan alınan ekran görüntülerini veya dosyadan seçilen g
 🧠 Kullanım
 
   -Uygulamayı aç.
+  
   -Dil seçimini yap: Türkçe veya İngilizce.
-  -Görseli yüklemek için:
-  -Windows + Shift + S ile bir alan seç → sonra ClipBoarddan Yapıştır butonuna tıkla veya Dosyadan Resim Seç butonuyla bir görsel aç.
-  -Dil seçimini yapıp Metin Ayıkla butonuna tıkla.
+  
+  -Görseli yüklemek için: Windows + Shift + S ile bir alan seç → sonra ClipBoarddan Yapıştır butonuna tıkla veya Dosyadan Resim Seç butonuyla bir görsel aç.
+  
+  -Metin Ayıkla butonuna tıkla.
+  
   -Çıkarılan metin txtOutput kutusunda görüntülenecektir.
