@@ -53,8 +53,11 @@ Uygulama, kullanıcıdan alınan ekran görüntülerini veya dosyadan seçilen g
    Install-Package Tesseract
 5. Proje dizininde tessdata klasörü oluştur.
 6. tessdata klasörüne aşağıdaki dil dosyalarını ekle:
-    tur.traineddata
-    eng.traineddata
+   
+    -tur.traineddata
+   
+    -eng.traineddata
+   
     Bu dosyaları linkten: https://github.com/tesseract-ocr/tessdata_best indirebilirsin.
 
 🧠 Kullanım
